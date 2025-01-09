@@ -1,6 +1,6 @@
 Telco Customer Churn Analysis
 
-Overview:
+Abstract:
 
 This repository contains a comprehensive analysis of customer churn for a telecommunications company. The goal of this project is to understand the factors contributing to customer churn and to visualize the data to derive actionable insights.
 
@@ -24,12 +24,12 @@ Contributing
 License
 
 
-Project Description
+Project Description:
 
 Customer churn is a critical issue for telecommunications companies, as retaining existing customers is often more cost-effective than acquiring new ones. This analysis aims to identify patterns and trends in customer behavior that lead to churn, using various data visualization techniques and statistical methods.
 
 
-Dataset
+Dataset:
 
 The dataset used for this analysis is the Telco Customer Churn dataset, which includes the following columns:
 
@@ -76,7 +76,7 @@ TotalCharges: Total charges incurred by the customer
 Churn: Indicates if the customer has churned (Yes/No)
 
 
-Technologies Used
+Technologies Used:
 
 Python
 
@@ -91,27 +91,27 @@ Seaborn
 Jupyter Notebook
 
 
-Analysis Steps
+Analysis Steps:
 
-Data Cleaning:
+1.Data Cleaning:
 
 Handle missing values and incorrect data types.
 Convert categorical variables for better analysis.
 
 
-Exploratory Data Analysis (EDA):
+2.Exploratory Data Analysis (EDA):
 
 Analyze the distribution of churned vs. non-churned customers.
 Investigate the impact of various features on customer churn.
 
 
-Visualization:
+3.Visualization:
 
 Create visualizations to represent the findings from the EDA.
 Use bar charts, pie charts, and histograms to illustrate key insights.
 
 
-Insights and Conclusions:
+4.Insights and Conclusions:
 
 Summarize the findings and provide recommendations based on the analysis.
 
@@ -136,5 +136,7 @@ Results:
 Approximately 26.54% of customers have churned.
 
 Senior citizens have a higher churn rate compared to younger customers.
+
 Customers with month-to-month contracts are more likely to churn.
+
 The use of services like Online Security and Tech Support correlates with lower churn rates
